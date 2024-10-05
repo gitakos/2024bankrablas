@@ -1,0 +1,85 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace bankrablas
+{
+    internal class Seriff : VarosElem
+    {
+        public int seriffX = 0;
+        public int seriffY = 0;
+        Dictionary<Type, int> prior = new Dictionary<Type, int>() {};
+        int[,] latott;
+        public override string ToString()
+        {
+            return "S";
+        }
+        public Seriff()
+        {
+            prior.Add(typeof(Bandita), -1);
+            prior.Add(typeof(Varoshaza), 10);
+            prior.Add(typeof(Barikad), 999);
+            prior.Add(typeof(Whiskey), -1);
+            prior.Add(typeof(Aranyrog), -1);
+            prior.Add(typeof(Ground), 0);
+            prior.Add(typeof(Seriff), 999);
+        }
+
+        public void szomszedFelfed(Varos varosElem)
+        {
+            //0: nem voltunk rajta, 1: voltunk rajta, -1: kő
+            if(latott == null)
+            {
+                latott = new int[varosElem.palyaMeret, varosElem.palyaMeret];
+            }
+            for (int i = seriffX - 1; i < seriffX + 2; i++)
+            {
+                for (int j = seriffY - 1; j < seriffY + 2; j++)
+                {
+                    try
+                    {
+                        varosElem.varoselemek[i, j].latott = true;
+                    }
+                    catch
+                    {
+
+                    }
+                }
+            }
+        }
+        public void iranyDont(Varos varosElem)
+        {
+            for (int i = 0; i < varosElem.aranyrogok.Length; i++)
+            {
+                VarosElem aranyRog = varosElem.aranyrogok[i];
+                palyaSulyoz(aranyRog.elemX,aranyRog.elemY,seriffX,seriffY,prior,varosElem);
+            }
+        }
+
+        public void palyaSulyoz(int celpontX, int celpontY,int bazisX,int bazisY, Dictionary<Type, int>prior,Varos varosElem)
+        {
+            int[,] sulyokCelpont = new int[3, 3];
+            Console.WriteLine();
+            for (int i = bazisX-1; i < bazisX+2; i++)
+            {
+                for (int j = bazisY - 1; j < bazisY+2; j++)
+                {
+                    try
+                    {
+                        Type elemType = varosElem.varoselemek[i, j].GetType();
+                        Console.WriteLine((i - bazisX + 1, j - bazisY + 1));
+                        sulyokCelpont[i - bazisX + 1, j - bazisY + 1] = (int)Math.Sqrt(Math.Pow(i - celpontX, 2) + Math.Pow(j - celpontY, 2) + prior[elemType]);
+                        //Console.Write(sulyokCelpont[i, j] + " ");
+                    }
+                    catch
+                    {
+                       
+                    }
+                }
+                Console.WriteLine();
+            }
+        }
+    }
+}
