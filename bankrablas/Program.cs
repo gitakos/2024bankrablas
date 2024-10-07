@@ -11,7 +11,7 @@ namespace bankrablas
     {
         public static Varos vaross;
         public static Seriff seriffElem;
-        public static int frameIdo = 500;
+        public static int frameIdo = 50;
         static void Main(string[] args)
         {
             vaross = new Varos();
@@ -63,6 +63,7 @@ namespace bankrablas
             Thread.Sleep(frameIdo);
             if (vaross.VEGE == false)
             {
+                //Console.SetCursorPosition(0, 0);
                 Console.Clear();
             }
             frameCounter++;

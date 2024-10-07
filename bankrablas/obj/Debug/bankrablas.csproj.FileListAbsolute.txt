@@ -26,3 +26,10 @@ H:\bankrablas\bankrablas\bankrablas\obj\Debug\bankrablas.csproj.AssemblyReferenc
 H:\bankrablas\bankrablas\bankrablas\obj\Debug\bankrablas.csproj.CoreCompileInputs.cache
 H:\bankrablas\bankrablas\bankrablas\obj\Debug\bankrablas.exe
 H:\bankrablas\bankrablas\bankrablas\obj\Debug\bankrablas.pdb
+H:\bankgit\bankrablas\bin\Debug\bankrablas.exe.config
+H:\bankgit\bankrablas\bin\Debug\bankrablas.exe
+H:\bankgit\bankrablas\bin\Debug\bankrablas.pdb
+H:\bankgit\bankrablas\obj\Debug\bankrablas.csproj.AssemblyReference.cache
+H:\bankgit\bankrablas\obj\Debug\bankrablas.csproj.CoreCompileInputs.cache
+H:\bankgit\bankrablas\obj\Debug\bankrablas.exe
+H:\bankgit\bankrablas\obj\Debug\bankrablas.pdb

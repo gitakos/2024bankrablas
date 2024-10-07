@@ -237,51 +237,6 @@ namespace bankrablas
             ujWhiskey.banditaMellet = varosElem.varoselemek[poz.Item1, poz.Item2].banditaMellet;
             varosElem.varoselemek[poz.Item1, poz.Item2] = ujWhiskey;
         }
-
-        /*public void varosElemTorol(VarosElem elem,Varos varosElem)
-        {
-            if (elem is Whiskey)
-            {
-                int index = elemIndexKeres(varosElem.whiskeyk, elem);
-                varosElem.whiskeyk.Remove()
-            }
-            if (elem is Bandita)
-            {
-                Console.WriteLine("Harcol");
-                return false;
-            }
-            if (elem is Varoshaza)
-            {
-                Console.WriteLine("Elmenekült! (Városháza)");
-                return true;
-            }
-            if (elem is Barikad)
-            {
-                Console.WriteLine("HIBA! (Barikádra lépés)");
-                return false;
-            }
-            if (elem is Aranyrog)
-            {
-                aranyRogok += 1;
-                return true;
-            }
-            if (elet < 50)
-            {
-                prior[typeof(Whiskey)] = -400;
-            }
-        }
-
-        public int elemIndexKeres(List<VarosElem> lista, VarosElem elem)
-        {
-            for(int i = 0; i < lista.Count; i++)
-            {
-                if ((lista[i].elemX, lista[i].elemY) == (elem.elemX, elem.elemY))
-                {
-                    return i;
-                }
-            }
-            return -1;
-        }*/
         Random random = new Random();
         public (int,(int,int)) palyaSulyoz(int celpontX, int celpontY,int bazisX,int bazisY, Type celpontType,Dictionary<Type, int>prior,ref Varos varosElem)
         {

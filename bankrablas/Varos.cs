@@ -224,23 +224,25 @@ namespace bankrablas
             vonalRajz();
             Seriff seriffElem = elemekLista[typeof(Seriff)][0] as Seriff;
             Console.WriteLine("Sheriff adatai:");
-            Console.WriteLine("Életerő: " + seriffElem.elet);
-            Console.WriteLine("Aranyrögök: " + seriffElem.aranyRogok);
-            Console.WriteLine("Ölések: " + seriffElem.olesek);
+            Console.WriteLine("Életerő: " + seriffElem.elet+"             ");//Console.Cursor a kedvenc functionom
+            Console.WriteLine("Aranyrögök: " + seriffElem.aranyRogok + "             ");
+            Console.WriteLine("Ölések: " + seriffElem.olesek + "             ");
+            vonalRajz();
+            Console.WriteLine("Támadt: ");
             if (seriffElem.tamadt != null)
             {
-                vonalRajz();
-                Console.WriteLine("Támadt: ");
-                Console.WriteLine((seriffElem.tamadt.elemX, seriffElem.tamadt.elemY) + " " + seriffElem.tamadt.elet);
+                Console.WriteLine("Pozíció: "+(seriffElem.tamadt.elemX, seriffElem.tamadt.elemY) + " Élet: " + seriffElem.tamadt.elet + " Sebzés ellene: -"+seriffElem.sebzes+"               ");
+                Thread.Sleep(1000);
             }
+            vonalRajz();
+            Console.WriteLine("Támadók: ");
             if (tamadoBanditak.Count > 0)
             {
-                vonalRajz();
-                Console.WriteLine("Támadók: ");
                 for (int i = 0; i < tamadoBanditak.Count; i++)
                 {
-                    Console.WriteLine((tamadoBanditak[i].elemX, tamadoBanditak[i].elemY)+" "+ tamadoBanditak[i].elet);
+                    Console.WriteLine("Pozíció: " + (tamadoBanditak[i].elemX, tamadoBanditak[i].elemY)+" Élet: "+ tamadoBanditak[i].elet+" Kapott sebzes: -" + tamadoBanditak[i].elozoSebzes+"                 ");
                 }
+                Thread.Sleep(1000);
             }
             vonalRajz();
             return null;

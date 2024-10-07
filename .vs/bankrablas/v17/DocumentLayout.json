@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\bankgit\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1FDE02BB-D3F3-4B7A-B397-8508171BE74C}|bankrablas\\bankrablas.csproj|H:\\bankgit\\bankrablas\\varos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FDE02BB-D3F3-4B7A-B397-8508171BE74C}|bankrablas\\bankrablas.csproj|solutionrelative:bankrablas\\varos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FDE02BB-D3F3-4B7A-B397-8508171BE74C}|bankrablas\\bankrablas.csproj|h:\\bankgit\\bankrablas\\seriff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FDE02BB-D3F3-4B7A-B397-8508171BE74C}|bankrablas\\bankrablas.csproj|solutionrelative:bankrablas\\seriff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FDE02BB-D3F3-4B7A-B397-8508171BE74C}|bankrablas\\bankrablas.csproj|H:\\bankgit\\bankrablas\\bandita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FDE02BB-D3F3-4B7A-B397-8508171BE74C}|bankrablas\\bankrablas.csproj|solutionrelative:bankrablas\\bandita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FDE02BB-D3F3-4B7A-B397-8508171BE74C}|bankrablas\\bankrablas.csproj|H:\\bankgit\\bankrablas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FDE02BB-D3F3-4B7A-B397-8508171BE74C}|bankrablas\\bankrablas.csproj|solutionrelative:bankrablas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\bankgit\\bankrablas\\Program.cs",
+              "RelativeDocumentMoniker": "bankrablas\\Program.cs",
+              "ToolTip": "H:\\bankgit\\bankrablas\\Program.cs",
+              "RelativeToolTip": "bankrablas\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowDgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T07:22:41.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bandita.cs",
+              "DocumentMoniker": "H:\\bankgit\\bankrablas\\Bandita.cs",
+              "RelativeDocumentMoniker": "bankrablas\\Bandita.cs",
+              "ToolTip": "H:\\bankgit\\bankrablas\\Bandita.cs",
+              "RelativeToolTip": "bankrablas\\Bandita.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAwwGsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T07:22:41.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Seriff.cs",
+              "DocumentMoniker": "H:\\bankgit\\bankrablas\\Seriff.cs",
+              "RelativeDocumentMoniker": "bankrablas\\Seriff.cs",
+              "ToolTip": "H:\\bankgit\\bankrablas\\Seriff.cs",
+              "RelativeToolTip": "bankrablas\\Seriff.cs",
+              "ViewState": "AgIAACUBAAAAAAAAAAAswPwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T07:22:41.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Varos.cs",
+              "DocumentMoniker": "H:\\bankgit\\bankrablas\\Varos.cs",
+              "RelativeDocumentMoniker": "bankrablas\\Varos.cs",
+              "ToolTip": "H:\\bankgit\\bankrablas\\Varos.cs",
+              "RelativeToolTip": "bankrablas\\Varos.cs",
+              "ViewState": "AgIAANoAAAAAAAAAAAAAwO8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T07:22:41.406Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

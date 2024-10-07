@@ -10,6 +10,8 @@ namespace bankrablas
     {
         public int aranyRogok = 0;
         public int elet = 100;
+
+        public int elozoSebzes = 0;
         public Bandita() {
         }
         Random rand = new Random();
@@ -102,7 +104,9 @@ namespace bankrablas
         public void parbaj(Seriff ellenfel,ref Varos varosElem)
         {
             varosElem.tamadoBanditak.Add(this);
-            ellenfel.elet -= rand.Next(5,15);
+            int sebzes = rand.Next(5, 15);
+            ellenfel.elet -= sebzes;
+            elozoSebzes = sebzes;
         }
     }
 }
