@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics.Eventing.Reader;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Security.Policy;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -42,28 +43,39 @@ namespace bankrablas
             szinbizbasz.Add("B", ConsoleColor.Red);
             szinbizbasz.Add("A", ConsoleColor.Yellow);
 
-            for (int i = 0; i < palyaMeret; i++) {
+            szabadMezokFill();
+            varoselemek = new VarosElem[palyaMeret, palyaMeret];
+            setup();
+        }
+        public void szabadMezokFill()
+        {
+
+            for (int i = 0; i < palyaMeret; i++)
+            {
                 szabadMezok.Add(new List<int>());
                 for (int j = 0; j < palyaMeret; j++)
                 {
                     szabadMezok[i].Add(j);
                 }
             }
-
-            varoselemek = new VarosElem[palyaMeret, palyaMeret];
-            setup();
         }
 
         public void setup()
         {
+            elemekLista = new Dictionary<Type, List<VarosElem>>();
+            szabadMezok = new List<List<int>>();
+            szabadMezokFill();
+            varoselemek = new VarosElem[palyaMeret, palyaMeret];
             elemekLista.Add(typeof(Barikad),elemGen(typeof(Barikad), barikadokSzama));
             elemekLista.Add(typeof(Varoshaza), elemGen(typeof(Varoshaza), 1));
-            bejarhatoEllen();
-            elemekLista.Add(typeof(Bandita), elemGen(typeof(Bandita), banditakSzama));
-            elemekLista.Add(typeof(Whiskey), elemGen(typeof(Whiskey), whiskeySzama));
-            elemekLista.Add(typeof(Aranyrog), elemGen(typeof(Aranyrog), aranyrogokSzama));
-            elemekLista.Add(typeof(Seriff), elemGen(typeof(Seriff), 1));
-            groundTolt();
+            if(bejarhatoEllen() == true)
+            {
+                elemekLista.Add(typeof(Bandita), elemGen(typeof(Bandita), banditakSzama));
+                elemekLista.Add(typeof(Whiskey), elemGen(typeof(Whiskey), whiskeySzama));
+                elemekLista.Add(typeof(Aranyrog), elemGen(typeof(Aranyrog), aranyrogokSzama));
+                elemekLista.Add(typeof(Seriff), elemGen(typeof(Seriff), 1));
+                groundTolt();
+            }
         }
 
         public void groundTolt()
@@ -116,7 +128,7 @@ namespace bankrablas
         int[,] ellenorzottek;
         int ellenorizettekSzama = 1;
 
-        public void bejarhatoEllen()
+        public bool bejarhatoEllen()
         {
             ellenorzottek = new int[palyaMeret, palyaMeret];
             ellenorizettekSzama = 1;
@@ -126,7 +138,9 @@ namespace bankrablas
             {
                 Console.WriteLine("Elbaszódott " + ellenorizettekSzama);
                 setup();
+                return false;
             }
+            return true;
         }
 
         public bool ragasztosE(VarosElem elem)

@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "H:\\bankgit\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1FDE02BB-D3F3-4B7A-B397-8508171BE74C}|bankrablas\\bankrablas.csproj|H:\\bankgit\\bankrablas\\varos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1FDE02BB-D3F3-4B7A-B397-8508171BE74C}|bankrablas\\bankrablas.csproj|h:\\bankgit\\bankrablas\\varos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FDE02BB-D3F3-4B7A-B397-8508171BE74C}|bankrablas\\bankrablas.csproj|solutionrelative:bankrablas\\varos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1FDE02BB-D3F3-4B7A-B397-8508171BE74C}|bankrablas\\bankrablas.csproj|h:\\bankgit\\bankrablas\\seriff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1FDE02BB-D3F3-4B7A-B397-8508171BE74C}|bankrablas\\bankrablas.csproj|H:\\bankgit\\bankrablas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FDE02BB-D3F3-4B7A-B397-8508171BE74C}|bankrablas\\bankrablas.csproj|solutionrelative:bankrablas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FDE02BB-D3F3-4B7A-B397-8508171BE74C}|bankrablas\\bankrablas.csproj|H:\\bankgit\\bankrablas\\seriff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FDE02BB-D3F3-4B7A-B397-8508171BE74C}|bankrablas\\bankrablas.csproj|solutionrelative:bankrablas\\seriff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1FDE02BB-D3F3-4B7A-B397-8508171BE74C}|bankrablas\\bankrablas.csproj|H:\\bankgit\\bankrablas\\bandita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FDE02BB-D3F3-4B7A-B397-8508171BE74C}|bankrablas\\bankrablas.csproj|solutionrelative:bankrablas\\bandita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FDE02BB-D3F3-4B7A-B397-8508171BE74C}|bankrablas\\bankrablas.csproj|H:\\bankgit\\bankrablas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FDE02BB-D3F3-4B7A-B397-8508171BE74C}|bankrablas\\bankrablas.csproj|solutionrelative:bankrablas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,19 +30,19 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "H:\\bankgit\\bankrablas\\Program.cs",
               "RelativeDocumentMoniker": "bankrablas\\Program.cs",
               "ToolTip": "H:\\bankgit\\bankrablas\\Program.cs",
               "RelativeToolTip": "bankrablas\\Program.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowDgAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-07T07:22:41.281Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Bandita.cs",
               "DocumentMoniker": "H:\\bankgit\\bankrablas\\Bandita.cs",
               "RelativeDocumentMoniker": "bankrablas\\Bandita.cs",
@@ -54,16 +54,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Seriff.cs",
               "DocumentMoniker": "H:\\bankgit\\bankrablas\\Seriff.cs",
               "RelativeDocumentMoniker": "bankrablas\\Seriff.cs",
               "ToolTip": "H:\\bankgit\\bankrablas\\Seriff.cs",
               "RelativeToolTip": "bankrablas\\Seriff.cs",
-              "ViewState": "AgIAACUBAAAAAAAAAAAswPwAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8BAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T07:22:41.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T07:22:41.406Z"
             },
             {
               "$type": "Document",
@@ -73,7 +72,7 @@
               "RelativeDocumentMoniker": "bankrablas\\Varos.cs",
               "ToolTip": "H:\\bankgit\\bankrablas\\Varos.cs",
               "RelativeToolTip": "bankrablas\\Varos.cs",
-              "ViewState": "AgIAANoAAAAAAAAAAAAAwO8AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAA9wBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-07T07:22:41.406Z",
               "EditorCaption": ""

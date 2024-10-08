@@ -260,6 +260,7 @@ namespace bankrablas
                         {
                             typeFaktor = prior[typeof(Bandita)];
                         }
+                        //Console.Write(elemType);
                         int tav = ketPontTavolsaga(i, j, celpontX, celpontY);
                         sulyokCelpont[i - bazisX + 1, j - bazisY + 1] = tav +typeFaktor+ celpontFaktor;//Math.Sqrt(Math.Pow(i - celpontX, 2) + Math.Pow(j - celpontY, 2))
                         if (sulyokCelpont[i - bazisX + 1, j - bazisY + 1] <= legkisebb && (i, j) != (elozoX, elozoY))
@@ -284,7 +285,7 @@ namespace bankrablas
         }
         public int ketPontTavolsaga(int x1,int y1, int x2, int y2)
         {
-            return (int)Math.Sqrt(Math.Pow(x1 - x2, 2) + Math.Pow(y1 - y2, 2));
+            return (int)Math.Floor(Math.Sqrt(Math.Pow(x1 - x2, 2) + Math.Pow(y1 - y2, 2)));
         }
         public void parbaj(Bandita ellenfel,Varos varosElem)
         {
